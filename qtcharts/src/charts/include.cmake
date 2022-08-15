@@ -1,0 +1,58 @@
+set(qtproject_SRCS 
+        chartbackground.cpp
+        chartdataset.cpp
+        chartelement.cpp
+        chartitem.cpp
+        chartpresenter.cpp
+        chartthememanager.cpp
+        charttitle.cpp
+        glwidget.cpp
+        qabstractseries.cpp
+        qchart.cpp
+        qchartview.cpp
+        qpolarchart.cpp
+        scroller.cpp
+)
+
+set(qtproject_H 
+        chartdataset_p.h
+        chartitem_p.h
+        chartpresenter_p.h
+        chartthememanager_p.h
+        glwidget_p.h
+        qabstractseries.h
+        qabstractseries_p.h
+        qchart.h
+        qchartview.h
+        qpolarchart.h
+        scroller_p.h
+)
+
+set(qtproject_UIS 
+)
+
+set(project_H 
+        chartbackground_p.h
+        chartconfig_p.h
+        chartelement_p.h
+        charthelpers_p.h
+        chartsnamespace.h
+        charttitle_p.h
+        qchart_p.h
+        qchartglobal.h
+        qchartview_p.h
+)
+include(${QT_CHARTS_DIR}/src/charts/animations/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/areachart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/axis/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/domain/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/barchart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/legend/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/linechart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/piechart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/scatterchart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/splinechart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/themes/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/xychart/include.cmake)
+include(${QT_CHARTS_DIR}/src/charts/layout/include.cmake)
+ 
